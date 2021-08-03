@@ -11,6 +11,10 @@
         android:layout_width="300dp"
         android:layout_height="500dp"
         android:background="@color/cardview_dark_background"
+        app:layout_constraintBottom_toTopOf="@id/bottom_menu"
+        app:layout_constraintTop_toBottomOf="@id/top_menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         >
 
     </LinearLayout>
