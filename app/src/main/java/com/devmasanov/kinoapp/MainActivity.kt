@@ -7,13 +7,12 @@ import android.widget.Toast
 
 
 class MainActivity : AppCompatActivity() {
-//    private lateinit var binding: TopAppBarBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        binding = TopAppBarBinding.inflate(layoutInflater)
-//        val view = binding.root
+
     }
 
     fun onClickToast(view: View) {
